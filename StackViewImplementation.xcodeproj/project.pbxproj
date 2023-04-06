@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1524DB429DE636C00EE40C1 /* CollapsableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DB329DE636C00EE40C1 /* CollapsableView.swift */; };
+		B1524DB729DE642900EE40C1 /* CollapsableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DB629DE642900EE40C1 /* CollapsableModel.swift */; };
+		B1524DB929DE650B00EE40C1 /* CollapsableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DB829DE650B00EE40C1 /* CollapsableViewModel.swift */; };
+		B1524DBB29DE65E900EE40C1 /* CollapsableStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DBA29DE65E900EE40C1 /* CollapsableStacks.swift */; };
+		B1524DBD29DE663000EE40C1 /* TupleViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DBC29DE663000EE40C1 /* TupleViewExtension.swift */; };
+		B1524DBF29DE663800EE40C1 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DBE29DE663800EE40C1 /* ViewExtension.swift */; };
+		B1524DC129DE663F00EE40C1 /* CollapsableViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DC029DE663F00EE40C1 /* CollapsableViewBuilder.swift */; };
+		B1524DC629DE745E00EE40C1 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1524DC529DE745E00EE40C1 /* RoundedCorners.swift */; };
+		B1F7DC8729DAB53E0081219C /* StackViewImplementationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F7DC8629DAB53E0081219C /* StackViewImplementationApp.swift */; };
+		B1F7DC8929DAB53E0081219C /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F7DC8829DAB53E0081219C /* StacksView.swift */; };
+		B1F7DC8B29DAB53F0081219C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F7DC8A29DAB53F0081219C /* Assets.xcassets */; };
+		B1F7DC8E29DAB53F0081219C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F7DC8D29DAB53F0081219C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1524DB329DE636C00EE40C1 /* CollapsableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableView.swift; sourceTree = "<group>"; };
+		B1524DB629DE642900EE40C1 /* CollapsableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableModel.swift; sourceTree = "<group>"; };
+		B1524DB829DE650B00EE40C1 /* CollapsableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableViewModel.swift; sourceTree = "<group>"; };
+		B1524DBA29DE65E900EE40C1 /* CollapsableStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableStacks.swift; sourceTree = "<group>"; };
+		B1524DBC29DE663000EE40C1 /* TupleViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleViewExtension.swift; sourceTree = "<group>"; };
+		B1524DBE29DE663800EE40C1 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		B1524DC029DE663F00EE40C1 /* CollapsableViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableViewBuilder.swift; sourceTree = "<group>"; };
+		B1524DC529DE745E00EE40C1 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		B1F7DC8329DAB53E0081219C /* StackViewImplementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewImplementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F7DC8629DAB53E0081219C /* StackViewImplementationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewImplementationApp.swift; sourceTree = "<group>"; };
+		B1F7DC8829DAB53E0081219C /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
+		B1F7DC8A29DAB53F0081219C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1F7DC8D29DAB53F0081219C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1F7DC8029DAB53E0081219C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1524DAF29DE61B000EE40C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1524DB229DE61EB00EE40C1 /* InitialEntryPoint */,
+				B1F7DC8829DAB53E0081219C /* StacksView.swift */,
+				B1524DB329DE636C00EE40C1 /* CollapsableView.swift */,
+				B1524DBA29DE65E900EE40C1 /* CollapsableStacks.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1524DB029DE61B700EE40C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1524DB629DE642900EE40C1 /* CollapsableModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1524DB129DE61BD00EE40C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1524DB829DE650B00EE40C1 /* CollapsableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1524DB229DE61EB00EE40C1 /* InitialEntryPoint */ = {
+			isa = PBXGroup;
+			children = (
+				B1F7DC8629DAB53E0081219C /* StackViewImplementationApp.swift */,
+			);
+			path = InitialEntryPoint;
+			sourceTree = "<group>";
+		};
+		B1524DB529DE63F700EE40C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1524DBC29DE663000EE40C1 /* TupleViewExtension.swift */,
+				B1524DBE29DE663800EE40C1 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1524DC429DE741A00EE40C1 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				B1524DC029DE663F00EE40C1 /* CollapsableViewBuilder.swift */,
+				B1524DC529DE745E00EE40C1 /* RoundedCorners.swift */,
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
+		B1F7DC7A29DAB53E0081219C = {
+			isa = PBXGroup;
+			children = (
+				B1F7DC8529DAB53E0081219C /* StackViewImplementation */,
+				B1F7DC8429DAB53E0081219C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F7DC8429DAB53E0081219C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F7DC8329DAB53E0081219C /* StackViewImplementation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F7DC8529DAB53E0081219C /* StackViewImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				B1524DB129DE61BD00EE40C1 /* ViewModel */,
+				B1524DB029DE61B700EE40C1 /* Model */,
+				B1524DAF29DE61B000EE40C1 /* View */,
+				B1F7DC8A29DAB53F0081219C /* Assets.xcassets */,
+				B1524DB529DE63F700EE40C1 /* Extensions */,
+				B1524DC429DE741A00EE40C1 /* Customs */,
+				B1F7DC8C29DAB53F0081219C /* Preview Content */,
+			);
+			path = StackViewImplementation;
+			sourceTree = "<group>";
+		};
+		B1F7DC8C29DAB53F0081219C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1F7DC8D29DAB53F0081219C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1F7DC8229DAB53E0081219C /* StackViewImplementation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F7DC9129DAB53F0081219C /* Build configuration list for PBXNativeTarget "StackViewImplementation" */;
+			buildPhases = (
+				B1F7DC7F29DAB53E0081219C /* Sources */,
+				B1F7DC8029DAB53E0081219C /* Frameworks */,
+				B1F7DC8129DAB53E0081219C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackViewImplementation;
+			productName = StackViewImplementation;
+			productReference = B1F7DC8329DAB53E0081219C /* StackViewImplementation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1F7DC7B29DAB53E0081219C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B1F7DC8229DAB53E0081219C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B1F7DC7E29DAB53E0081219C /* Build configuration list for PBXProject "StackViewImplementation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1F7DC7A29DAB53E0081219C;
+			productRefGroup = B1F7DC8429DAB53E0081219C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1F7DC8229DAB53E0081219C /* StackViewImplementation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F7DC8129DAB53E0081219C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F7DC8E29DAB53F0081219C /* Preview Assets.xcassets in Resources */,
+				B1F7DC8B29DAB53F0081219C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F7DC7F29DAB53E0081219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1524DC629DE745E00EE40C1 /* RoundedCorners.swift in Sources */,
+				B1524DB729DE642900EE40C1 /* CollapsableModel.swift in Sources */,
+				B1524DB429DE636C00EE40C1 /* CollapsableView.swift in Sources */,
+				B1524DBD29DE663000EE40C1 /* TupleViewExtension.swift in Sources */,
+				B1F7DC8929DAB53E0081219C /* StacksView.swift in Sources */,
+				B1524DC129DE663F00EE40C1 /* CollapsableViewBuilder.swift in Sources */,
+				B1524DB929DE650B00EE40C1 /* CollapsableViewModel.swift in Sources */,
+				B1F7DC8729DAB53E0081219C /* StackViewImplementationApp.swift in Sources */,
+				B1524DBB29DE65E900EE40C1 /* CollapsableStacks.swift in Sources */,
+				B1524DBF29DE663800EE40C1 /* ViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1F7DC8F29DAB53F0081219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1F7DC9029DAB53F0081219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1F7DC9229DAB53F0081219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StackViewImplementation/Preview Content\"";
+				DEVELOPMENT_TEAM = T8S328RA37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asd.StackViewImplementation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1F7DC9329DAB53F0081219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StackViewImplementation/Preview Content\"";
+				DEVELOPMENT_TEAM = T8S328RA37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asd.StackViewImplementation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F7DC7E29DAB53E0081219C /* Build configuration list for PBXProject "StackViewImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F7DC8F29DAB53F0081219C /* Debug */,
+				B1F7DC9029DAB53F0081219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F7DC9129DAB53F0081219C /* Build configuration list for PBXNativeTarget "StackViewImplementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F7DC9229DAB53F0081219C /* Debug */,
+				B1F7DC9329DAB53F0081219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1F7DC7B29DAB53E0081219C /* Project object */;
+}
